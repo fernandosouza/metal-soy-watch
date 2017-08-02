@@ -1,0 +1,19 @@
+{
+  "name": "metal-soy-watch",
+  "version": "1.0.0",
+  "author": {
+    "name": "Fernando Souza",
+    "email": "fernando.souzao@liferay.com"
+  },
+  "files": [
+    "bin/**/*.js"
+  ],
+  "bin": {
+    "metal-soy-watch": "./bin/metalSoyWatch.js"
+  },
+  "dependencies": {
+    "chokidar": "^1.7.0",
+    "metal-tools-soy": "^4.2.6",
+    "npm-run-script": "0.0.4"
+  }
+}
