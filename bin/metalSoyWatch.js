@@ -4,7 +4,7 @@
 
 const chokidar = require('chokidar');
 const metalToolsSoy = require('metal-tools-soy');
-const defaultOptions = require('../node_modules/metal-tools-soy/lib/options.js');
+const defaultOptions = require('metal-tools-soy/lib/options.js');
 const path = require('path');
 const yargs = require('yargs')
   .option('dest', {
